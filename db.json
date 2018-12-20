@@ -1,0 +1,34 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "test123",
+      "password": "password",
+      "email": "test123@gmail.com",
+      "firstname": "test",
+      "lastname": "123",
+      "gender": "male",
+      "country": "IN"
+    },
+    {
+      "username": "asdas",
+      "password": "asd",
+      "email": "sadd",
+      "firstname": "asd",
+      "lastname": "asdd",
+      "gender": "male",
+      "country": "IN",
+      "id": 2
+    },
+    {
+      "username": "sadsa",
+      "password": "sadsa",
+      "email": "sdsa@gmil.com",
+      "firstname": "asd",
+      "lastname": "asd",
+      "gender": "male",
+      "country": "IN",
+      "id": 3
+    }
+  ]
+}
