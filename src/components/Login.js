@@ -5,7 +5,7 @@ import { authenticateUser } from '../actions';
 import LoginPage from './components/Login';
 
 const mapStateToProps = (state) => ({
-	inValidUser : state.users
+	inValidUser : state.reducers.users
 })
 
 const mapDispatchToProps = {

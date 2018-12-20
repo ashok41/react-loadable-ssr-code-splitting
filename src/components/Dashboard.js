@@ -37,7 +37,7 @@ class Dashboard extends React.Component {
 }
 
 const mapStateToProps = (state) => ({
-  users: state.users
+  users: state.reducers.users
 })
 
 const mapDispatchToProps = {

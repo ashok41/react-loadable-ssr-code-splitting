@@ -125,9 +125,9 @@ class RegisterPage extends React.Component {
 		</div>
 		<div className="input-box">
 			<label>Country</label>
-			<select name="country" onChange={this.handleTextChange('country')}>
+			<select value={this.state.country} name="country" onChange={this.handleTextChange('country')}>
 			{countries.map((data, index) => {
-			return (<option key={index} value={data.value} selected={this.state.country === data.value}>{data.name}</option>)
+			return (<option key={index} value={data.value}>{data.name}</option>)
 			})}
 			</select>
 		</div>
