@@ -1,20 +1,4 @@
 {
-  "ansi-html": [
-    {
-      "id": "./node_modules/ansi-html/index.js",
-      "name": "./node_modules/ansi-html/index.js",
-      "file": "vendor.js",
-      "publicPath": "vendor.js"
-    }
-  ],
-  "ansi-regex": [
-    {
-      "id": "./node_modules/ansi-regex/index.js",
-      "name": "./node_modules/ansi-regex/index.js",
-      "file": "vendor.js",
-      "publicPath": "vendor.js"
-    }
-  ],
   "axios": [
     {
       "id": "./node_modules/axios/index.js",
@@ -223,14 +207,6 @@
       "publicPath": "vendor.js"
     }
   ],
-  "events": [
-    {
-      "id": "./node_modules/events/events.js",
-      "name": "./node_modules/events/events.js",
-      "file": "vendor.js",
-      "publicPath": "vendor.js"
-    }
-  ],
   "./DOMUtils": [
     {
       "id": "./node_modules/history/es/DOMUtils.js",
@@ -313,38 +289,6 @@
     {
       "id": "./node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js",
       "name": "./node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js",
-      "file": "vendor.js",
-      "publicPath": "vendor.js"
-    }
-  ],
-  "html-entities": [
-    {
-      "id": "./node_modules/html-entities/index.js",
-      "name": "./node_modules/html-entities/index.js",
-      "file": "vendor.js",
-      "publicPath": "vendor.js"
-    }
-  ],
-  "./lib/html4-entities.js": [
-    {
-      "id": "./node_modules/html-entities/lib/html4-entities.js",
-      "name": "./node_modules/html-entities/lib/html4-entities.js",
-      "file": "vendor.js",
-      "publicPath": "vendor.js"
-    }
-  ],
-  "./lib/html5-entities.js": [
-    {
-      "id": "./node_modules/html-entities/lib/html5-entities.js",
-      "name": "./node_modules/html-entities/lib/html5-entities.js",
-      "file": "vendor.js",
-      "publicPath": "vendor.js"
-    }
-  ],
-  "./lib/xml-entities.js": [
-    {
-      "id": "./node_modules/html-entities/lib/xml-entities.js",
-      "name": "./node_modules/html-entities/lib/xml-entities.js",
       "file": "vendor.js",
       "publicPath": "vendor.js"
     }
@@ -533,22 +477,6 @@
       "publicPath": "vendor.js"
     }
   ],
-  "loglevel": [
-    {
-      "id": "./node_modules/loglevel/lib/loglevel.js",
-      "name": "./node_modules/loglevel/lib/loglevel.js",
-      "file": "vendor.js",
-      "publicPath": "vendor.js"
-    }
-  ],
-  "punycode": [
-    {
-      "id": "./node_modules/node-libs-browser/node_modules/punycode/punycode.js",
-      "name": "./node_modules/node-libs-browser/node_modules/punycode/punycode.js",
-      "file": "vendor.js",
-      "publicPath": "vendor.js"
-    }
-  ],
   "object-assign": [
     {
       "id": "./node_modules/object-assign/index.js",
@@ -593,30 +521,6 @@
     {
       "id": "./node_modules/prop-types/lib/ReactPropTypesSecret.js",
       "name": "./node_modules/prop-types/lib/ReactPropTypesSecret.js",
-      "file": "vendor.js",
-      "publicPath": "vendor.js"
-    }
-  ],
-  "./decode": [
-    {
-      "id": "./node_modules/querystring-es3/decode.js",
-      "name": "./node_modules/querystring-es3/decode.js",
-      "file": "vendor.js",
-      "publicPath": "vendor.js"
-    }
-  ],
-  "./encode": [
-    {
-      "id": "./node_modules/querystring-es3/encode.js",
-      "name": "./node_modules/querystring-es3/encode.js",
-      "file": "vendor.js",
-      "publicPath": "vendor.js"
-    }
-  ],
-  "querystring": [
-    {
-      "id": "./node_modules/querystring-es3/index.js",
-      "name": "./node_modules/querystring-es3/index.js",
       "file": "vendor.js",
       "publicPath": "vendor.js"
     }
@@ -1029,22 +933,6 @@
       "publicPath": "vendor.js"
     }
   ],
-  "sockjs-client/dist/sockjs": [
-    {
-      "id": "./node_modules/sockjs-client/dist/sockjs.js",
-      "name": "./node_modules/sockjs-client/dist/sockjs.js",
-      "file": "vendor.js",
-      "publicPath": "vendor.js"
-    }
-  ],
-  "strip-ansi": [
-    {
-      "id": "./node_modules/strip-ansi/index.js",
-      "name": "./node_modules/strip-ansi/index.js",
-      "file": "vendor.js",
-      "publicPath": "vendor.js"
-    }
-  ],
   "!../node_modules/style-loader/lib/addStyles.js": [
     {
       "id": "./node_modules/style-loader/lib/addStyles.js",
@@ -1077,22 +965,6 @@
       "publicPath": "vendor.js"
     }
   ],
-  "url": [
-    {
-      "id": "./node_modules/url/url.js",
-      "name": "./node_modules/url/url.js",
-      "file": "vendor.js",
-      "publicPath": "vendor.js"
-    }
-  ],
-  "./util": [
-    {
-      "id": "./node_modules/url/util.js",
-      "name": "./node_modules/url/util.js",
-      "file": "vendor.js",
-      "publicPath": "vendor.js"
-    }
-  ],
   "value-equal": [
     {
       "id": "./node_modules/value-equal/index.js",
@@ -1101,31 +973,7 @@
       "publicPath": "vendor.js"
     }
   ],
-  "D:\\twitter\\node_modules\\webpack-dev-server\\client\\index.js?http://localhost:8080": [
-    {
-      "id": "./node_modules/webpack-dev-server/client/index.js?http://localhost:8080",
-      "name": "./node_modules/webpack-dev-server/client/index.js?http://localhost:8080",
-      "file": "vendor.js",
-      "publicPath": "vendor.js"
-    }
-  ],
-  "./overlay": [
-    {
-      "id": "./node_modules/webpack-dev-server/client/overlay.js",
-      "name": "./node_modules/webpack-dev-server/client/overlay.js",
-      "file": "vendor.js",
-      "publicPath": "vendor.js"
-    }
-  ],
-  "./socket": [
-    {
-      "id": "./node_modules/webpack-dev-server/client/socket.js",
-      "name": "./node_modules/webpack-dev-server/client/socket.js",
-      "file": "vendor.js",
-      "publicPath": "vendor.js"
-    }
-  ],
-  "./../../../webpack/buildin/global.js": [
+  "./../../node_modules/webpack/buildin/global.js": [
     {
       "id": "./node_modules/webpack/buildin/global.js",
       "name": "./node_modules/webpack/buildin/global.js",
@@ -1141,74 +989,44 @@
       "publicPath": "vendor.js"
     }
   ],
-  "./../../../webpack/buildin/module.js": [
+  "../components/NotFound": [
     {
-      "id": "./node_modules/webpack/buildin/module.js",
-      "name": "./node_modules/webpack/buildin/module.js",
-      "file": "vendor.js",
-      "publicPath": "vendor.js"
-    }
-  ],
-  "webpack/hot/emitter": [
-    {
-      "id": "./node_modules/webpack/hot/emitter.js",
-      "name": "./node_modules/webpack/hot/emitter.js",
-      "file": "vendor.js",
-      "publicPath": "vendor.js"
-    }
-  ],
-  "./log": [
-    {
-      "id": "./node_modules/webpack/hot/log.js",
-      "name": "./node_modules/webpack/hot/log.js",
-      "file": "vendor.js",
-      "publicPath": "vendor.js"
+      "id": "./src/components/NotFound.js",
+      "name": "./src/components/NotFound.js",
+      "file": "0.js",
+      "publicPath": "0.js"
     }
   ],
   "../components/Dashboard": [
     {
       "id": "./src/components/Dashboard.js",
       "name": "./src/components/Dashboard.js",
-      "file": "0.js",
-      "publicPath": "0.js"
+      "file": "1.js",
+      "publicPath": "1.js"
     }
   ],
   "../components/Register": [
     {
       "id": "./src/components/Register.js",
       "name": "./src/components/Register.js",
-      "file": "1.js",
-      "publicPath": "1.js"
+      "file": "2.js",
+      "publicPath": "2.js"
     }
   ],
   "../components/Login": [
     {
       "id": "./src/components/Login.js",
       "name": "./src/components/Login.js",
-      "file": "2.js",
-      "publicPath": "2.js"
+      "file": "3.js",
+      "publicPath": "3.js"
     }
   ],
   "./components/Login": [
     {
       "id": "./src/components/components/Login.js",
       "name": "./src/components/components/Login.js",
-      "file": "2.js",
-      "publicPath": "2.js"
-    }
-  ],
-  "undefined": [
-    {
-      "id": 0,
-      "name": null,
-      "file": "main.js",
-      "publicPath": "main.js"
-    },
-    {
-      "id": "./node_modules/webpack/hot sync ^\\.\\/log$",
-      "name": "./node_modules/webpack/hot sync ^\\.\\/log$",
-      "file": "main.js",
-      "publicPath": "main.js"
+      "file": "3.js",
+      "publicPath": "3.js"
     }
   ],
   "../assets/style.css": [
@@ -1235,7 +1053,7 @@
       "publicPath": "main.js"
     }
   ],
-  "./components/utils/config": [
+  "./utils/config": [
     {
       "id": "./src/components/utils/config.js",
       "name": "./src/components/utils/config.js",

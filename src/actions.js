@@ -6,7 +6,7 @@ export const AUTHENTICATE = 'AUTHENTICATE'
 
 export const createUsersInfo = (history, param) => {
   return dispatch => {
-    axios.post(config.baseUrl + 'users', param)
+    axios.post(config.apiUrl + 'users', param)
 	.then((response) => {
 		localStorage.setItem('username', param.username);
 		history.push('/');
@@ -16,7 +16,7 @@ export const createUsersInfo = (history, param) => {
 
 export const authenticateUser = (history, username, password) => {
   return dispatch => {
-    axios.get(config.baseUrl + 'users?username=' + username + '&password=' + password)
+    axios.get(config.apiUrl + 'users?username=' + username + '&password=' + password)
 	.then((response) => {
 		const data = response.data;
 		if(data.length > 0) {
@@ -34,7 +34,7 @@ export const authenticateUser = (history, username, password) => {
 
 export const getUsers = () => {
   return dispatch => {		
-	axios.get(config.baseUrl + 'users?username=' + localStorage.getItem('username'))
+	axios.get(config.apiUrl + 'users?username=' + localStorage.getItem('username'))
 	.then(response => {
 		const data = response.data[0];
 		dispatch({

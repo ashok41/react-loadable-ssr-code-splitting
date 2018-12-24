@@ -1,3 +1,4 @@
 export const config = {
-	baseUrl: 'http://localhost:3004/'
+	apiUrl: 'http://localhost:3004/',
+	baseUrl: 'http://localhost:3000/'
 };

@@ -58,6 +58,9 @@ h1 {
     border: 1px solid transparent;
     border-radius: 4px;
 }
+.form-box .success {
+	color: #05a805;
+}
 .form-box .signup {
 	padding: 10px 0 10px 0;
 }
@@ -72,4 +75,22 @@ h1 {
 	cursor: pointer;
 	color: #00aeff;
 	padding: 10px 0px 5px 0px;
+}
+.upload-form-box {
+	padding: 10px 5px;
+    border: 1px solid #ddd;
+    margin: 10px 0;
+}
+.remove-icon {
+	color: #df0c0c;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    margin: 0 5px;
+}
+.file-item {
+	padding: 3px 0;
+}
+.file-items-box {
+	padding: 10px 0;
 }

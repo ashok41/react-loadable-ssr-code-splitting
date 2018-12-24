@@ -5,13 +5,19 @@ import Loadable from 'react-loadable';
 import render from './render';
 //import jsonServer from 'json-server';
 import configureStore from '../src/store';
+import fileUpload from 'express-fileupload';
+import cors from 'cors';
 //import Routes from '../src/router';
-
-
-
+import routes from './routes';
+import bodyParser from 'body-parser';
 const app = express();
 app.use(express.static('public'));
+app.use(cors());
+app.use(bodyParser.urlencoded({ extended: false }));
+app.use(bodyParser.json());
+app.use(fileUpload());
 //app.use('/api', jsonServer.router('db.json'));
+app.use('/files', routes);
 
 
 /*app.use((req, res, next) => {
@@ -24,7 +30,7 @@ app.use(express.static('public'));
 
 app.use(/\.js$/, express.static('public'));*/
 
-app.get('*', (req, res) => {
+app.get('/*', (req, res) => {
   const store = configureStore();
 
   /*const actionsTemp = matchRoutes(Routes, req.path).map(({ route }) => !route.component.preload ? route.component : route.component.preload().then(res => res.default));

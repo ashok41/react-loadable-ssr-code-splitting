@@ -23,6 +23,11 @@ const AsyncDashboard = Loadable({
     loading: () => <div>loading page...</div>
     //modules: ['Dashboard'],
 });
+const NotFound = Loadable({
+    loader: () => import('../components/NotFound'),
+    loading: () => <div>loading page...</div>
+    //modules: ['Dashboard'],
+});
 const GLOBAL_WINDOW = (typeof self === 'object' && self.self === self && self) || (typeof global === 'object' && global.global === global && global) || this;
 
 const PrivateRoute = ({ component: Component , ...rest}) => (
@@ -50,6 +55,7 @@ export default () => {
 		  <Route path={'/login'} component={AsyncLogin} />
 		  <Route path={'/register'} component={AsyncRegister} />
 		  <PrivateRoute exact path={'/'} component={AsyncDashboard} />
+		  <Route component={NotFound} />
 		</Switch>
 	  </div>
 	);

@@ -1,6 +1,6 @@
 const webpack = require('webpack');
 const path = require('path');
-const HtmlWebpackPlugin = require('html-webpack-plugin');
+//const HtmlWebpackPlugin = require('html-webpack-plugin');
 const reactLoadablePlugin = require('react-loadable/webpack').ReactLoadablePlugin;
 
 module.exports = {
